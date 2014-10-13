@@ -1,13 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "lire_lettre.h"
 
-char lire_lettre()
-{                                   //fonction renvoyant une lettre
-    char c[2];
-    printf("Entrez une lettre :  ");
-    scanf("%s",c);
-    return c[0];
-}
 
 int main()
 {
