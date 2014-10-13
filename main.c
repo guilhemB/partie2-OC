@@ -67,6 +67,12 @@ int chance=5;
             chance-=1;
         }
     }
+
+    printf("Vous avez perdu, le mot a trouver était ");
+    for(i=0; i<8; i++)
+    {
+        printf("%c",motSecret[i]);
+    }
  
    printf("\n");
     return 0;
